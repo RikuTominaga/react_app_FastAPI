@@ -1,4 +1,4 @@
-# similar item searcher  
+# similar item searcher FastAPI ver.  
 
 ## 開発環境・ライブラリー情報
 - Windows 11
@@ -21,9 +21,8 @@
 `python -m venv venv`  
 7. 仮想環境のアクティベート  
 `.\venv\Scripts\activate`
-8. ライブサーバーの実行
+8. ライブサーバーの実行   
 `uvicorn main:app --host 0.0.0.0 --port 8000 --reload`
-9. ライブラリーのインストール
 
 ## ディレクトリ構成
 ```
@@ -38,12 +37,12 @@
     │   │   └──...   
     │   ├──　main.py #レポジトリーにあるmain.py配置  
     │   └── info.db #レポジトリーにあるinfo.dbを配置
-    ├── docker
+    ├── docker #レポジトリーにあるdockerフォルダーを配置
     │   ├── backend
-    │   │   ├──Dockerfile
-    │   │   └──requirements.txt
+    │   │   ├── Dockerfile
+    │   │   └── requirements.txt
     │   └── frontend
-    │       └──  Dockerfile
+    │       └── Dockerfile
     ├── public/    
     │   └── ...  
     ├── src/
