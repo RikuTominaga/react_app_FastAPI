@@ -9,6 +9,7 @@
 - langchain-community 0.3.2
 - faiss-cpu 1.9.0
 - fastapi 0.115.4
+- uvicorn 0.32.0
 
 ## 構築手順
 1. プロジェクト作成  
